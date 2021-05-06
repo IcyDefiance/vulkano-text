@@ -1,0 +1,23 @@
+[package]
+name = "game"
+version = "0.1.0"
+authors = ["icydefiance"]
+edition = "2018"
+
+[dependencies]
+async-std = "1.9.0"
+ego-tree = "0.6.2"
+font-kit = { version = "0.10.0" }
+harfbuzz_rs = "1.2.0"
+image = "0.23.14"
+nalgebra = "0.26.2"
+pathfinder_geometry = "0.5.1"
+lazy_static = "1.4.0"
+shipyard = "0.5.0"
+rectangle-pack = "0.4.2"
+unic-ucd-block = "0.9.0"
+unic-char-range = "0.9.0"
+vulkano = { path = "../vulkano/vulkano" }
+vulkano-shaders = { path = "../vulkano/vulkano-shaders" }
+vulkano-win = { path = "../vulkano/vulkano-win" }
+winit = "0.25.0"
