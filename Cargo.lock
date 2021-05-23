@@ -2023,10 +2023,12 @@ checksum = "5fecdca9a5291cc2b8dcf7dc02453fee791a280f3743cb0905f8822ae463b3fe"
 [[package]]
 name = "vk-sys"
 version = "0.6.1"
+source = "git+https://github.com/IcyDefiance/vulkano#7624a5ce5bccd7abfa7cbf6bc20b49e6d8944154"
 
 [[package]]
 name = "vulkano"
 version = "0.23.0"
+source = "git+https://github.com/IcyDefiance/vulkano#7624a5ce5bccd7abfa7cbf6bc20b49e6d8944154"
 dependencies = [
  "crossbeam-queue 0.3.1",
  "fnv",
@@ -2041,6 +2043,7 @@ dependencies = [
 [[package]]
 name = "vulkano-shaders"
 version = "0.23.0"
+source = "git+https://github.com/IcyDefiance/vulkano#7624a5ce5bccd7abfa7cbf6bc20b49e6d8944154"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -2051,6 +2054,7 @@ dependencies = [
 [[package]]
 name = "vulkano-win"
 version = "0.23.0"
+source = "git+https://github.com/IcyDefiance/vulkano#7624a5ce5bccd7abfa7cbf6bc20b49e6d8944154"
 dependencies = [
  "cocoa 0.20.2",
  "metal",
