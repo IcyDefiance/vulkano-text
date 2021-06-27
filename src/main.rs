@@ -37,7 +37,7 @@ fn main() {
 	let mut world = World::new();
 	world.add_unique(gfx).unwrap();
 	world.add_entity((mesh,));
-	world.add_entity(("lazy dog.",));
+	world.add_entity(("The quick brown fox jumps over the lazy dog.",));
 	windows.insert(window.id(), world.add_entity((window, render_window_state, camera)));
 
 	Workload::builder("default").with_system(&render).add_to_world(&world).unwrap();

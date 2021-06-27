@@ -162,13 +162,11 @@ impl Font {
 				let position = cursor + Vector2::new(x_offset as _, y_offset as _);
 				cursor += Vector2::new(x_advance as _, y_advance as _);
 
-				print!("{}, ", position.x);
 				assert_eq!(position.y, 0.0);
 
 				ChInstance { ch_pos: position.into() }
 			}))
 			.unwrap();
-		println!();
 
 		(Arc::new(cmds), Arc::new(qcmds), Arc::new(instances))
 	}
